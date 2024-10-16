@@ -1,0 +1,12 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+    <h1>{{ title }}</h1>
+    <h2>Color: {{doc.color}} </h2>
+    <h3>Model Year: {{doc.year}}</h3>
+    <img src="{{ doc.image }}" alt="Image Not Available">
+
+    <a class="btn btn-info" href="/book-your-ride/new?vehicle={{doc.name}}">Book Ride</a>
+
+
+{% endblock %}
