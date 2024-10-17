@@ -1,0 +1,29 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "creation": "2024-10-15 05:25:22.776334",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Booking",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>New booking has arrived</p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-10-15 05:26:06.762855",
+ "modified_by": "Administrator",
+ "module": "Cabs",
+ "name": "New Booking Arrived!",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "",
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{ doc.customer_name}} booked a vehicle!"
+}
